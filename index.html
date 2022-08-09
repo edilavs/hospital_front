@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bVHospital</title>
+    <link rel="shortcut icon"
+        href="https://bhospital.bdtask.com/assets_web/images/icons/cea89bb004a4ceb09ff61af3e6ac8d54.png">
+    <!-- Animate CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+        integrity="sha512-doJrC/ocU8VGVRx3O9981+2aYUn3fuWVWvqLi1U+tA2MWVzsw+NVKq1PrENF03M+TYBP92PnYUlXFH1ZW0FpLw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Owl Carousel CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+<body>
+    <header>
+        <section id="topBar">
+            <div class="container">
+                <div class="row">
+                    <div class="info d-flex justify-content-between align-items-center">
+                        <div class="info-box d-flex">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="mail">
+                                <a href="#">demo@hospital.com</a>
+                            </div>
+                        </div>
+                        <div class="info-box d-flex">
+                            <div class="icon">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <div class="phone">
+                                <a href="#">(012)-345-56-65</a>
+                            </div>
+                        </div>
+                        <div class="socials ms-auto">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-skype"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <section id="middleBar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img
+                            src="./assets/images/9c35f91b10dec555f2006a741384abc5.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="navbar-nav ms-auto">
+                            <div class="socials ms-auto mt-3">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section id="navBar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid container">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact Us</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <p class="dropbtn">Departments<i class="fas fa-chevron-down"></i></p>
+                                <div class="dropdown-content">
+                                    <a href="#">Link 1</a>
+                                    <a href="#">Link 2</a>
+                                    <a href="#">Link 3</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./others.html">Others</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./patientLogin.html">Patient Login</a>
+                            </li>
+
+                        </ul>
+                        <div class="appointment-btn d-flex ms-auto">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <a href="./index.html">Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <!-- Header end -->
+    <main>
+        <section id="slider">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/slide-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 position-left">
+                                        <h2 class="fadeInUp animated">General Requirements- An <br> Overview</h2>
+                                        <p class="fadeInUp animated mt-4">Generally, the system should be safe and
+                                            secure from a data
+                                            management point-of-view.</p>
+                                        <div class="button">
+                                            <a class="fadeInUp animated" href="#">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/slide-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="col-md-12 position-left">
+                                        <h2 class="fadeInUp animated">Introducing a new information <br> system</h2>
+                                        <p class="fadeInUp animated mt-4">where one is already in place and is actively
+                                            used</p>
+                                        <div class="button">
+                                            <a class="fadeInUp animated" href="#">Download Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/slide-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 position-right">
+                                        <h2 class="fadeInUp animated text-right">A Hospital Information System (HIS)
+                                            basically is a synonym for information management</h2>
+                                        <p class="fadeInUp animated mt-4">A Hospital Information System (HIS) basically
+                                            is a synonym for information management</p>
+                                        <div class="button">
+                                            <a class="fadeInUp animated" href="#">Start Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="grid-inner">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-md-4 column c-box-1">
+                        <div class="icon-widget">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <div class="text-content">
+                            <a href="./timeTable.html" class="btn btn-link">View Timetable
+                                <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 column c-box-2">
+                        <div class="icon-widget">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="text-content">
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 column c-box-3">
+                        <div class="icon-widget">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="text-content">
+                            <table class="table mt-4">
+
+                                <tbody>
+                                    <tr>
+                                        <td>Monday-Saturday</td>
+                                        <td>08.00-20.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sunday</td>
+                                        <td>Closed</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <div class="row align-items-center justify-content-between  mt-5">
+                    <div class="col-md-12 col-lg-7">
+                        <div class="about-img">
+                            <img src="./assets/images/about-1.jpg" height="1100" width="740" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-5">
+                        <div class="about-content">
+                            <h6>ABOUT</h6>
+                            <h1 class="about-title">Summary Of Hospital</h1>
+                            <blockquote class="blackquote quote-text">
+                                <p class="mb-0">“Once open, paste the appropriate Python code for your version of
+                                    Sublime Text into the console.”</p>
+                                <cite class="quote-attribution fw-bold"> — Michael Smith</cite>
+                                <div class="signature">
+                                    <img src="./assets/images/about-2.png" width="90" height="75" alt="">
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="department">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 department-title mt-4">
+                        <h2 class="d-flex justify-content-center">Departments</h2>
+                    </div>
+                </div>
+
+                <div class="row p-2">
+                    <div class="col-4 col-lg-2">
+                        <div class="dep-box">
+                            <a href="./department.html">
+                                <div class="box-icon">
+                                    <i class="fa-solid fa-heart-circle-plus"></i>
+                                </div>
+                                <div class="box-text">
+                                    <h5 class="dep-name">Cardiology</h5>
+                                </div>
+                            </a>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-4 col-lg-2">
+                        <div class="dep-box">
+                            <a href="./department.html">
+                                <div class="box-icon">
+                                    <i class="fa-solid fa-fire-flame-simple"></i>
+                                </div>
+                                <div class="box-text">
+                                    <h5 class="dep-name">Hematology</h5>
+                                </div>
+                            </a>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="col-4 col-lg-2">
+                        <div class="dep-box">
+                            <a href="#">
+                                <div class="box-icon">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <div class="box-text">
+                                        <h5 class="dep-name">Ophthalmology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-2">
+
+                        <div class="dep-box">
+                            <a href="#">
+                                <div class="box-icon">
+                                    <i class="fa-solid fa-tooth"></i>
+                                    <div class="box-text">
+                                        <h5 class="dep-name">Dental</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <div class="col-4 col-lg-2">
+
+                        <div class="dep-box">
+                            <a href="#">
+                                <div class="box-icon">
+                                    <i class="fa-solid fa-pills"></i>
+                                    <div class="box-text">
+                                        <h5 class="dep-name">Medicine</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                    <div class="col-4 col-lg-2">
+
+                        <div class="dep-box">
+                            <a href="#">
+                                <div class="box-icon">
+                                    <i class="fa-solid fa-brain"></i>
+                                    <div class="box-text">
+                                        <h5 class="dep-name">Neurophysiology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+        </section>
+        <section id="stat">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-10">
+                        <div class="text">
+                            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem! Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Quo iusto asperiores ex provident.</h2>
+                            <p class="author-name">William John</p>
+                            <a href="#">www.stats.com</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        
+        <section id="partners">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="partner-logo">
+                            <a href="#">
+                                <img src="./assets/images/img-1.jpg" width="150" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="partner-logo">
+                            <a href="#">
+                                <img src="./assets/images/img-2.png" width="150" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="partner-logo">
+                            <a href="#">
+                                <img src="./assets/images/img-3.png" width="150" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="partner-logo">
+                            <a href="#">
+                                <img src="./assets/images/img-4.png" width="150" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="partner-logo">
+                            <a href="#">
+                                <img src="./assets/images/img-5.png" width="150" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-2">
+                        <div class="partner-logo">
+                            <a href="#">
+                                <img src="./assets/images/img-6.png" width="150" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="doctors">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 title mt-4">
+                        <h2 class="d-flex justify-content-center">Doctors</h2>
+                    </div>
+                </div>
+                <div class="row doctors-row d-flex mt-3 justify-content-between">
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 doctor-box">
+                        <a href="#">
+                            <div class="doctor-info mt-4">
+                                <h3 class="text-center">Eldar Ələkbərli</h3>
+                                <h4 class="dep-name text-center">Cardiology</h4>
+                                <div class="img-box text-center">
+                                    <img src="./assets/images/doctor-1.jpg">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 doctor-box">
+                        <a href="#">
+                            <div class="doctor-info mt-4">
+                                <h3 class="text-center">Eldar Ələkbərli</h3>
+                                <h4 class="dep-name text-center">Cardiology</h4>
+                                <div class="img-box text-center">
+                                    <img src="./assets/images/doctor-1.jpg">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 doctor-box">
+                        <a href="#">
+                            <div class="doctor-info mt-4">
+                                <h3 class="text-center">Eldar Ələkbərli</h3>
+                                <h4 class="dep-name text-center">Cardiology</h4>
+                                <div class="img-box text-center">
+                                    <img src="./assets/images/doctor-1.jpg">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-12 view-tm-btn">
+                        <!-- <a href="./doctors.html">View our team</a> -->
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-12 view-tm-btn">
+                        <a href="./doctors.html">View our team</a>
+                    </div>
+                </div>
+            </div>
+         
+        </section>
+        <section id="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 blog-desc text-center">
+                        <a href="./news.html">
+                            <h2>Latest News</h2>
+                        </a>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-1.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-1.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-1.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-1.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-1.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-2.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-1.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-1.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 mt-3 blog-box">
+
+                        <div class="img-box">
+                            <img src="./assets/images/blog-2.jpg" width="300" alt="">
+                        </div>
+                        <div class="blog-content">
+                            <div class="date">
+                                <p> 23 July 2022</p>
+                            </div>
+                            <div class="blog-name">
+                                <a href="">
+                                    Blog Name
+                                </a>
+                            </div>
+                            <div class="post">
+                                <p class="content">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel tenetur
+                                    aperiam
+                                    porro fugiat eveniet officiis sapiente, quo rerum assumenda consequatur, est
+                                    modi
+                                    repellat vero illum eos saepe earum perspiciatis. Tempora pariatur numquam iure
+                                    facilis
+                                    odit voluptatibus recusandae, et debitis libero illo nobis, consequatur
+                                    voluptas!
+                                    Dolorum sed recusandae soluta a.F
+                                </p>
+                                <button onclick="readMore(this)">Read More</button>
+                                <div class="detail">
+                                    <a href="./news.html">
+                                        Detail <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btnContainer d-flex justify-content-center align-items-center">
+                <button id="showMore">Get More</button>
+            </div>
+
+        </section>
+        <section id="goThere">
+            <div class="appointment">
+                <div class="container">
+                    <div class="row p-3">
+                        <div class="col-12  d-flex justify-content-center text-center mt-3">
+                            <h2>Make Appointment!</h2>
+                            <a href="#"> Go there <i class="fa-solid fa-arrow-right-long"></i> </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main end -->
+    <footer>
+        <div class="main-footer footer-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-4 footer-logo">
+                        <img src="./assets/images/9c35f91b10dec555f2006a741384abc5.png" width="220" alt="">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="about-us p-5">
+
+                            <h4 class="footer-title p-3">About Us</h4>
+                            <ul class="footer-list">
+                                <li class="mt-2">
+                                    <a href="#">Doctors</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a href="#">News</a>
+                                </li>
+                                <li class="btn btn-link mt-4"><a href="./contact.html">Contact Us<i
+                                            class="fa-solid fa-arrow-right-long p-1"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 p-0">
+                        <div class="contact-us p-5">
+                            <h4 class="footer-title p-3">Contact Details</h4>
+                            <ul class="footer-list">
+                                <li class="mt-2">
+                                    <div class="mail-box d-flex">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <div class="address">
+                                            <p>Email Address:</p>
+                                        </div>
+                                        <div class="mail">
+                                            <a href="#">demo@hospital.com</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="phone-box d-flex">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-mobile-screen-button"></i>
+                                        </div>
+                                        <div class="phone">
+                                            <a href="#">(012)-345-56-65</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="socials ms-auto mt-3">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        <a href="#"><i class="fa-brands fa-skype"></i></a>
+                                    </div>
+                                </li>
+                                <li class="btn btn-link mt-4"><a href="./contact.html">Get Direction<i
+                                            class="fa-solid fa-arrow-right-long p-1"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <hr>
+            <div class="container p-0">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="sub-footer-text p-0">
+                            <p>
+                                Copyright © 2016- <a href="#" target="_blank">BdTask</a> . All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <a href="#" class="goTopBtn"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Font-awesome CDN  -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <!-- jQuery CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Owl Carousel Js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
